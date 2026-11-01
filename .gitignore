@@ -1,39 +1,28 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Virtual environment
+.venv/
+venv/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Environment variables
+.env
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# IDE
 .vscode/
 
-target/
-.env
-application-local.properties
+# Testing
+.pytest_cache/
+.coverage
+
+# Logs
 *.log
-.DS_Store
+
+# Java Maven (old project)
+target/
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml
